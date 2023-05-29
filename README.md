@@ -31,6 +31,7 @@ go run ./main.go --bucket=<bucket name> --profile=<aws-profile> --cleanup=<true/
 
 ## Milestones
 
+- [ ] Support Content-Type & Cache-Control headers
 - [ ] Add additional flags for advanced use cases ie multi-bucket upload config, selective uploads from uploads directory
 - [ ] Set better defaults for flags
 - [ ] Perform uploads within Go routines and collect status via channels
