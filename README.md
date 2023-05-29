@@ -31,6 +31,7 @@ go run ./main.go --bucket=<bucket name> --profile=<aws-profile> --cleanup=<true/
 
 ## Milestones
 
+- [ ] Add check to .gitignore when walking the directory in uploads and uploads-complete directories
 - [ ] Support Content-Type & Cache-Control headers
 - [ ] Add additional flags for advanced use cases ie multi-bucket upload config, selective uploads from uploads directory
 - [ ] Set better defaults for flags
