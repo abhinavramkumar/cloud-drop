@@ -36,4 +36,6 @@ go run ./main.go --bucket=<bucket name> --profile=<aws-profile> --cleanup=<true/
 - [ ] Add additional flags for advanced use cases ie multi-bucket upload config, selective uploads from uploads directory
 - [ ] Set better defaults for flags
 - [ ] Perform uploads within Go routines and collect status via channels
+- [ ] Setup an optional micro frontend where users can configure options with a UI
+- [ ] Add support to perform basic image optimization operation using [bimg](https://github.com/h2non/bimg)
 - [ ] Create an adapter that can create a client and upload to any Cloud Storage Service
